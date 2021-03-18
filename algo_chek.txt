@@ -1,0 +1,29 @@
+algoritheme sentence
+begin 
+var voy=0;
+var count=0;
+var nbr=0;
+
+
+
+
+for (i=0; i<ch.length ; i++)
+{
+if (ch[i]==" "||ch[i]==".")
+{
+count ++;
+}
+else 
+{
+nbr++;
+}
+
+
+for (i=0; i<ch.length ; i++)
+{
+if (ch[i] in ['a','e','i','y','o','u'] )
+{
+voy++;
+}
+
+end
